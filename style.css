@@ -11,7 +11,7 @@
 #particles-js{
   height: 100vh;
   
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/neuron.jpg"); 
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/neurons1.png"); 
 
   background-size: cover;
   background-position: center;
