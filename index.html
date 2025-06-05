@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Prabhudesai Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    
+
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo"></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#interactive">Games</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div id="background-container">
+        <canvas id="neuron-canvas"></canvas>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1 class="welcome-text">Welcome to My Mind</h1>
+        <p class="subtitle">Data Scientist | Quantitative Researcher </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="button primary">View Projects</a>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hi! I'm a passionate data scientist and quantitative researcher with a background in software development
+                    and machine learning. My journey in the world of data and AI has been driven by curiosity and a desire to
+                    solve complex problems through innovative approaches.
+                </p>
+                <p>
+                    Currently, I'm pursuing my Master's degree in Data Science at Johns Hopkins University, where I'm
+                    focusing on advanced machine learning techniques, deep learning, and financial data analysis. My research
+                    interests include reinforcement learning, time series forecasting, and quantitative finance.
+                </p>
+                <p>
+                    With experience spanning from software development at Oracle to quantitative research at JP Morgan and
+                    machine learning engineering at Quantify Capital, I bring a unique blend of technical expertise and
+                    domain knowledge to every project I undertake.
+                </p>
+                <p>
+                    I have been fascinated by the perception of universe through the cognitive inference and with an eye of engineering. 
+                    Keen in solving real world problems via application of machine learning technologies.
+                </p>
+            </div>
+            <img src="images/Adarsh.png" alt="Profile Photo" class="profile-image">
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <div class="timeline-date">2021 - 2024 </div>
+                    <h3 class="timeline-title">Quantitative Researcher</h3>
+                    <div class="timeline-company">
+                        <img src="images/jpbrown.png" alt="JP Morgan Logo" class="company-logo">
+                        </div>
+                    <p class="timeline-description">
+                        Developed quantitative execution algorithms for global markets. Conducted advanced research leveraging NLP and (LLMs) to extract actionable insights from unstructured financial data. Enhanced execution strategies through statistical modeling and broker optimization within OMS/EMS frameworks.
+                        Collaborated with portfolio managers and traders to support real-time analytics and address high-impact ad-hoc data requests. Designed volume forecasting models to improve execution efficiency and modeled market impact.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <h3 class="timeline-title">Software Developer</h3>
+                    <div class="timeline-company">
+                        <img src="images/Oracle-Logo-1-1536x864.png" alt="Oracle Logo" class="company-logo">
+                        </div>
+                    <p class="timeline-description">
+                        Developed client-specific customizations and enhancements of Oracle's core products, aligning with bespoke client requirements. Resolved critical production issues for a major corporate bank in India ensuring smooth flow across business functions.
+                        Managed and executed data migration projects for clients, ensuring seamless module integration and functionality.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <div class="timeline-date">2019 - 2020</div>
+                    <h3 class="timeline-title">Quantitative Researcher </h3>
+                    <div class="timeline-company">
+                        <img src="images/QC_Logo.png" alt="Oracle Logo" class="company-logo">
+                        <h3></h3></div>
+                    <p class="timeline-description">
+                        Developed ML-driven trading algorithms across equities, indices, and options. Delivered customized backtesting reports to international clients, supporting a 5x fund growth and 60% ROI. 
+                        Mentored traders in Python, algorithmic trading, and machine learning fundamentals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+
+            <div class="project-card">
+                <img src="images/xray2.jpg" alt="Project 4" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Vision-Language Transformers for Clinical Report Generation</h3>
+                    <p class="project-description">
+                        A deep learning pipeline that generates clinical reports from chest X-rays by combining DenseNet121 for visual encoding with BioGPT for medical text generation. Trained on the IU X-Ray dataset, it leverages prompt-based generation and mixed-precision training to deliver accurate and clinically relevant reports.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">LLM</span>
+                        <span class="tag">Medical Imaging</span>
+                        <span class="tag">Deep Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AdarshPrabhudesai/VLT_Medical_Imaging" class="project-link"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/SmartAlgo.png" alt="Project 2" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">SmartAlgo: ML-Driven Trading System</h3>
+                    <p class="project-description">
+                        Built a fully automated trading system using LSTM-based models for minute-level forecasting and real-time signal generation. Integrated live market APIs, high-frequency execution logic, and SQL-based trade logging. 
+                        Optimized transaction costs through intelligent limit order handling and maker-taker fee modeling.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Quantitative Finance</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="images/robocon.JPG" alt="Project 1" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Autonomous Navigation System</h3>
+                    <p class="project-description">
+                        A dynamic Android-based control system integrated with MATLAB to enable real-time autonomous navigation for quadruped robots combining mobile flexibility with intelligent path planning and obstacle avoidance.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Robotics</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Hardware</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AdarshPrabhudesai/IP-Android_App" class="project-link"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="project-card">
+                <img src="images/SOR.png" alt="Project 3" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Smart Order Routing</h3>
+                    <p class="project-description">
+                        Developed a Smart Order Router (SOR) that dynamically splits large orders across market centers using a stochastic optimization framework inspired by the Cont and Kukanov model. 
+                        The system simulates real-time execution decisions based on queue-depth, fill probability, and latency considerations, minimizing expected implementation shortfall. Implemented a queue-based cost function to optimally allocate shares between market and limit orders under execution risk constraints
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Quantitative Finance</span>
+                        <span class="tag">Stochastic Processes </span>
+                        <span class="tag">Optimization</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AdarshPrabhudesai/Cont_Kukanov_SOR" class="project-link"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/website.PNG" alt="Project 5" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Commercial Website</h3>
+                    <p class="project-description">
+                        A fully immpersive and commercial website built using modern web technologies (HTML, CSS, JavaScript). Designed for a professional business presence, it includes a homepage, product/service showcase, contact form with email integration, and mobile-first design. 
+                        Deployed via epizy and integrated with Google Analytics for performance tracking.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                        <span class="tag">Web Development</span>
+                    </div>
+                    <div class="project-links">
+                        
+                        <a href="https://dspsocietyaccounting.epizy.com/?i=1" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="publications">
+        <h2 class="section-title">Technical Publications & Research</h2>
+        <div class="publications-container">
+            <!-- Featured Publication -->
+            <div class="publication-card featured">
+
+                <h3 class="publication-title">Autonomous Real-Time Navigation Based on Dynamic Line and Object Detection</h3>
+                <h5 class="publication-date">30 June 2020. Springer Singapore</h5>
+                <p class="publication-authors">Adarsh Prabhudesai,Pavan Rayar, Samruddhi Pai, Shaival Parikh</p>
+                <p class="publication-description">
+                    This research introduces a mobile-based solution for real-time path correction in autonomous quadruped robots using visual feedback. The system processes environmental cues to detect deviations and transmits corrective actions wirelessly, enabling accurate and adaptive navigation. 
+                    With minimal hardware requirements, the approach offers versatile applications in robotics, automotive systems, smart manufacturing, and assistive technologies.
+                </p>
+                <div class="publication-tags">
+                    <span class="tag">Robotics</span>
+                    <span class="tag">Computer Vision</span>
+
+                </div>
+                <div class="publication-links">
+                    <a href="https://link.springer.com/chapter/10.1007/978-981-15-4485-9_36#citeas" class="publication-link">
+                        <i class="fas fa-eye"></i>
+                        Paper
+                    </a>
+                    <a href="https://github.com/AdarshPrabhudesai/IP-Android_App" class="publication-link">
+                        <i class="fas fa-play"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
+    
+    
+
+       <!-- Interactive Section -->
+    <section id="interactive">
+        <h2 class="section-title">Want to Play A Game?</h2>
+        <div class="interactive-grid">
+                
+
+
+            <div class="interactive-card">
+                <h3 class="interactive-title">Math Challenge Game</h3>
+                <div class="interactive-content">
+                    <div id="number-game-container">
+                        <div id="game-display">Ready to play?</div>
+                        <div id="game-buttons">
+                            <button class="button" id="start-game">Start Game</button>
+                            <button class="button" disabled id="answer-btn">Submit</button>
+                        </div>
+                        <input type="number" id="answer-input" placeholder="Your answer" style="display: none; padding: 0.5rem; margin-bottom: 1rem; background-color: rgba(1, 11, 25, 0.8); color: #f8f9fa; border: 1px solid rgba(100, 255, 218, 0.3); border-radius: 4px;">
+                        <div id="game-score">Score: 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Captcha Simulator UI -->
+            <div class="interactive-card" id="captcha-card">
+                <h3 class="interactive-title">Captcha: Be a Robot 🤖</h3>
+                <div class="interactive-content" id="robot-captcha" style="display: flex; flex-direction: column; align-items: center;">
+                    <label style="display: flex; align-items: center; cursor: pointer; font-size: 1.1rem; margin-bottom: 1rem;">
+                    <input type="checkbox" id="captcha-checkbox" style="margin-right: 10px; transform: scale(1.3);">
+                    I'm want to be a robot
+                    </label>
+                    <div id="robot-challenge" style="display:none; background-color: rgba(1,11,25,0.8); padding: 1rem; border: 1px solid #64ffda; text-align:center;">
+                    <p>Solve challenge: Click the center of this box</p>
+                    <div id="target-box" style="width: 150px; height: 150px; margin: 1rem auto; background: rgba(0, 0, 0, 0.871); position: relative; cursor: crosshair;"></div>
+                    <div id="robot-result" style="margin-top: 1rem;"></div>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="interactive-card" id="line-fitting-game">
+                    <h3 class="interactive-title">Draw a Line to Fit the Data</h3>
+                    <div class="interactive-content" style="display: flex; flex-direction: column; align-items: center;">
+                      <p style="margin-bottom: 0.5rem;">Click and drag to draw a line through the scatter plot. Try minimizing the error!</p>
+                      <canvas id="regression-canvas" width="300" height="300" style="background: rgba(0, 0, 0, 0.85); border: 1px solid #64ffda; cursor: crosshair; margin-bottom: 0.5rem;"></canvas>
+                      <p id="regression-result" style="color: #64ffda; font-weight: bold; margin-bottom: 0.5rem;"></p>
+                      <button id="regression-clear" class="button">Reset</button>
+                    </div>
+                  </div>
+
+               <div class="interactive-card">
+  <h3 class="interactive-title">Classification Challenge</h3>
+  <div class="interactive-content" style="text-align: center;">
+    <p>Draw a decision boundary</p>
+    <canvas id="classification-canvas" width="300" height="300" style="background:rgba(0, 0, 0, 0.85); border:1px solid #64ffda; cursor: crosshair; margin-bottom: 0.5rem;"></canvas>
+    <p id="classification-result" style="color: #64ffda; font-weight: bold; margin-bottom: 0.5rem;"></p>
+    <button id="classification-clear" class="button">Reset</button>
+  </div>
+</div>
+   
+                  
+                                     
+
+
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 class="skill-category-title">Programming Languages</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fab fa-python skill-icon"></i>
+                        Python
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code skill-icon"></i>
+                        R
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java skill-icon"></i>
+                        Java
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js skill-icon"></i>
+                        JavaScript
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database skill-icon"></i>
+                        SQL
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code skill-icon"></i>
+                        C++
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Machine Learning</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-brain skill-icon"></i>
+                        Deep Learning
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-robot skill-icon"></i>
+                        Reinforcement Learning
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-comment-alt skill-icon"></i>
+                        NLP
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line skill-icon"></i>
+                        Time Series Analysis
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-image skill-icon"></i>
+                        Computer Vision
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch skill-icon"></i>
+                        Ensemble Methods
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Data Science Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-fire skill-icon"></i>
+                        TensorFlow
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-fire-alt skill-icon"></i>
+                        PyTorch
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cogs skill-icon"></i>
+                        Scikit-learn
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-table skill-icon"></i>
+                        Pandas
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-calculator skill-icon"></i>
+                        NumPy
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-bar skill-icon"></i>
+                        Matplotlib/Seaborn
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Quantitative Finance</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line skill-icon"></i>
+                        Algorithmic Trading
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-balance-scale skill-icon"></i>
+                        Risk Management
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-pie skill-icon"></i>
+                        Portfolio Optimization
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-funnel-dollar skill-icon"></i>
+                        Statistical Arbitrage
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-hands-helping skill-icon"></i>
+                        Option Pricing
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-random skill-icon"></i>
+                        Monte Carlo Simulation
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p class="contact-text">
+                I'm always open to new opportunities, collaborations, or just a friendly chat about data science, 
+                machine learning, or quantitative finance. Feel free to reach out!
+            </p>
+            <a href="mailto:adarshprabhudesai09@gmail.com" class="button primary">Send Email</a>
+            <div class="social-links">
+                <a href="https://github.com/AdarshPrabhudesai" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adarsh-prabhudesai-525991181/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 · Designed & Built by Adarsh Prabhudesai</p>
+    </footer>
+
+    <!-- Additional styles for video embedding in projects -->
+    
+
+
+
+    <!-- JavaScript for the interactive elements -->
+    
+</body>
+</html>
